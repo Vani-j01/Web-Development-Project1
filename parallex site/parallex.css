@@ -1,0 +1,93 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family:sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    
+}
+
+
+.img2, .img3, .img4, .img5{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.70;
+    background-attachment: fixed;
+}
+
+.img1{
+    background-image: url('images/img1.jpg');
+    min-height: 100%;
+}
+
+.img2{
+    background-image: url('images/Taj.jpg');
+    min-height: 400px;
+    
+}
+
+.img3{
+    background-image: url('images/IndiaGate.jpg');
+    min-height: 400px;
+}
+
+.img4{
+    background-image: url('images/monument2.jpg');
+    min-height: 400px;
+}
+
+.img5{
+    background-image: url('images/monument4.jpg');
+    min-height: 400px;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:rgb(4, 14, 0);
+    font-size:27px;
+    letter-spacing:10px;
+    text-transform:uppercase;
+}
+
+.border{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+
+}
+
+.a{
+    background-color: burlywood;
+    color: rgba(0, 0, 0, 0.342);
+    padding: 30px;
+    width: fit-content;
+}
+
+@media(){max-width: 568px;
+    .img2,.img3,.img4,.img5{
+        background-attachment: scroll;
+    }
+}
+
+
+
