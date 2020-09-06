@@ -6,9 +6,9 @@
     <title>CONTACT US</title>
     <!--Your Css Stylesheet refernce-->
   <link rel="stylesheet" href="contentpages.css">
+  <link rel="stylesheet" href="ContactUs.css">
   <!--link for the ICONS-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
-  <link rel="stylesheet" href="ContactUs.css">
   
 </head>
 <body>
@@ -87,45 +87,72 @@
       </div>
 
        <br>
+       <br clear="all">
 
-       <section class="main_col">
+       <h1 class="socials_heading">Follow us on:</h1>
+       <div class="socials">
+        <ul>
+          <li class="icons"> <a href="#" class="fa fa-facebook"></a></li>
+          <li class="icons"> <a href="#" class="fa fa-twitter"></a></li>
+          <li class="icons"> <a href="#" class="fa fa-instagram"></a></li>
+          <li class="icons"> <a href="#" class="fa fa-youtube"></a></li>
+        </ul>
+      </div>
+
+      <br>
+      <br clear="all">
+
         <div class="fbackground">
-          <div class="fhead"> <h1> Tell Us Your Story</h1></div>
+          <div class="fhead"> <h1> Tell Us Your Travel Story</h1></div>
           <div class="main">
             <form action="get">
 
-              <h3 class="name">Name</h3>
+              <h3 class="form_head">Name</h3>
               <label class="lab" for="fname">First Name:</label><br>
-              <input class="inp_name" type="text" name="fname" placeholder="Name">
+              <input class="inp_box" type="text" name="fname" placeholder="Name">
               <br>
               <label class="lab" for="lname">Last Name:</label><br>
-              <input class="inp_name" type="text" name="lname" placeholder="Surname">
+              <input class="inp_box" type="text" name="lname" placeholder="Surname">
               <br><br><br>
 
-              <h3 class="address">Postal Address</h3>
+              <h3 class="form_head">Postal Address</h3>
                 <label class="lab" for="add">Address</label><br>
-                <textarea name="add" class="inp_add" cols="15" rows="2" placeholder="Address"></textarea>
+                <textarea name="add" class="text_box" cols="15" rows="5" placeholder="Address"></textarea>
               <br><br><br>
 
-              <h3 class="user_email">Email</h3>
+              <h3 class="form_head">Email</h3>
               <lable class="lab" for="email">Email Address</lable><br>
-              <input type="email" name="email" class="email">
+              <input type="email" name="email" class="inp_box" placeholder="example.ex@email.com">
               <br><br><br>
 
-              <h3 class="msg">Write your Message</h3>
-              <textarea name="message" class="mmsg" cols="20" rows="5" placeholder="Type here"></textarea>
+              <h3 class="form_head">Write your Message</h3>
+              <textarea name="message" class="text_box" cols="20" rows="8" placeholder="Type here"></textarea>
               
             </form>
           </div>
           </div>
-       </section>
 
-       <aside class="sidebar">
+       
+       <br clear="all">
+       <br>
 
-        <h2 class="header_side">You are in good company</h2>
-        <p class="p_side"><div class="1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore quia sit enim ea temporibus. Harum accusantium voluptatem illo nisi numquam. Dolor non quo voluptatibus laborum minima quae beatae molestiae provident.</div></p>
+       <div class="footer">
+        <h2>
+            Beautiful India
+        </h2>
 
-       </aside>
+        <ul class="footerlists">
+            <li><h2> Contact Us</h2></li>
+            <li>Email: </li>
+            <li>Call: </li>
+        </ul>
+
+        <ul class="footerlists">
+            <li><h2> Socials</h2></li>
+            <li>fb</li>
+            <li>twitter</li>
+        </ul>
+    </div>
 
       
 </body>
