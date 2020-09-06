@@ -1,0 +1,119 @@
+
+
+
+ .header{
+   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/IndiaGate.jpg);
+
+  /* Position and center the image to scale nicely on all screens */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.head_text {
+    text-align: center;
+    position: relative;
+    padding: 50px;
+    padding-top:170px ;
+    padding-bottom:200px ;
+    color: white;
+  }
+
+  .head_text p{
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  #heading {
+      font-size: 50px;
+      letter-spacing: 2px;
+      text-transform: capitalize;
+  }
+  
+
+
+
+.main_col{
+    float: left;
+    width: 70%;
+}
+
+.fbackground{
+    position: relative;
+    background-image: url(images/Taj.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fhead{
+    position: relative;
+    width: 80%;
+    background-color: rgb(0,0,0,0.8);
+    margin: auto;
+    color:#ffffff ;
+    text-align: center;
+    padding: 10px ;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.main{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+}
+
+form{
+    color: white;
+    padding:10px
+}
+
+
+.sidebar{
+    float: right;
+    background-color: blue;
+    width: 30%;
+}.main_col{
+    float: left;
+    width: 70%;
+}
+
+.fbackground{
+    position: relative;
+    background-image: url(images/Taj.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fhead{
+    position: relative;
+    width: 80%;
+    background-color: rgb(0,0,0,0.8);
+    margin: auto;
+    color:#ffffff ;
+    text-align: center;
+    padding: 10px ;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.main{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+}
+
+
+
+
+
