@@ -76,27 +76,63 @@ body,html{
 
 }
 
- ul{
+ .text ul{
+    
+    position: relative;
+    background-color: transparent;
+    display:flex;
+    margin: 5%;
+    justify-content: space-between;
+    list-style: none;
+}
+ .text li{
+    position: relative;
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.219);
+    border-radius: 5%;
+    padding: 10px;
+    margin: 3%;
+}
+
+.a{
+    background-color: burlywood;
+    color: rgba(0, 0, 0, 0.342);
+    padding: 3%;
+    width: fit-content;
+}
+
+
+ /*Footer*/
+
+ .footer{
+    margin-top: 10px;
+    padding: 5%  8%;
+    background-color: turquoise;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footerlists {
+    display: list-item;
+    margin: 5px;
+    justify-content: unset;
+    margin: 0;
+
+}
+
+.footer ul{
     background-color: transparent;
     display: flex;
     margin: 50px;
     justify-content: space-between;
     list-style: none;
 }
-li{
+.footer ul li{
     background-color: rgba(0, 0, 0, 0.219);
     border-radius: 5%;
     padding: 10px;
     margin: 15px;
 }
-
-.a{
-    background-color: burlywood;
-    color: rgba(0, 0, 0, 0.342);
-    padding: 30px;
-    width: fit-content;
-}
-
 
 @media(max-width: 568px){
     .img2,.img3,.img4,.img5{
