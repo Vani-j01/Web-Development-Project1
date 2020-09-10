@@ -1,6 +1,6 @@
 # landing-page-demos
 
-1-Beautiful India  Webpage:
+1-Beautiful India  :
         Completely responsive website made using only HTML and CSS!
 
  
