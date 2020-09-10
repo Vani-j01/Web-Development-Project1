@@ -1,4 +1,4 @@
-# landing-page-demos
+# Projects
 
 1-Beautiful India  :
         Completely responsive website made using only HTML and CSS!
