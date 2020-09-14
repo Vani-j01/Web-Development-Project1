@@ -75,3 +75,12 @@ color: black;
         width: 50%;
     }
 }
+
+.head-title{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:underline dashed;
+    margin: 5%;
+    padding: 10px;
+    background-color:rgba(222, 184, 135, 0.733);
+}

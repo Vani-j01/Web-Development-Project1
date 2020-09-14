@@ -15,7 +15,7 @@
 .wrapper .top_nav{
     width: 100%;
     height: 65px;
-    background-color: rgb(45, 201, 45);
+    background-color: white;
     padding: 0 50px;
     display: flex;                              /* sets stuff inline and spaces properly*/
     justify-content: space-between;
@@ -44,13 +44,13 @@
 .wrapper .top_nav .left ul li a{
     display: block;
     padding: 8px 10px;
-    color: white;
+    color: black;
 }
 .wrapper .top_nav .left ul li a:hover{
-    color: black;
+    color: #f8cc93;
 }
 .wrapper .top_nav .left ul li a:active{
-    color: black;
+    color: #f8cc93;
 }
 
 /* ---------------- Parts that appera on smaller screen--------------------*/
@@ -64,7 +64,7 @@
 .show-menu-button, .hide-menu-button{
     transition: 0.4s;
     font-size: 30px;
-    color: white;
+    color: burlywood;
     cursor: pointer;
    display: none;
 }
@@ -106,7 +106,7 @@
     padding: 5px;
     border: none;
     border-radius: 5px;
-    background-color:white;
+    background-color:burlywood;
 }
 /* ----------------------End top Nav-Bar---------------*/
 
@@ -151,16 +151,15 @@
  /*Footer*/
 
  .footer{
-    margin-top: 10px;
+    margin-top: 5%;
     padding: 5%  8%;
-    background-color: turquoise;
+    background-color:#f8cc93;
     display: flex;
     justify-content: space-between;
 }
 
 .footer .footerlists {
     display: list-item;
-    margin: 5px;
     justify-content: unset;
     margin: 0;
 
@@ -169,12 +168,12 @@
 .footer ul{
     background-color: transparent;
     display: flex;
-    margin: 50px;
+    margin: 50px ;
     justify-content: space-between;
     list-style: none;
 }
 .footer ul li{
-    background-color: rgba(0, 0, 0, 0.219);
+    background-color: burlywood;
     border-radius: 5%;
     padding: 10px;
     margin: 15px;
@@ -213,7 +212,7 @@
         position: fixed;
         width: 100%;
         height: 100vh;
-        background-color: #333;
+        background-color: whitesmoke;
         right: 100%;
         top: 0;
         text-align: center;
